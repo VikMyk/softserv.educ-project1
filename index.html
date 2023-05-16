@@ -1,52 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+   <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Figmaland</title>
   <link rel="shortcut icon" href="img/logo-figma.png" type="image/x-icon">
-</head>
-
-<body>
-
-  <div style="background-image: url(img/working-laptop.png);">
-    <header>
-      <nav>
-        <div>
-          <font color="white">
-            <a href="#">Home</a>
-            <a href="#">Product</a>
-            <a href="#">Pricing</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-          </font>
-        </div>
-      </nav>
-      <img src="img/logo-figma.png" alt="Logo Figma">
-      <div class="social-network">
-        <img src="img/twitter.png" alt="Twitter">
-        <img src="img/facebook.png" alt="facebook">
-        <img src="img/linkedin.png" alt="Linkedin">
+  <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <header class="header">
+    <nav class="header__nav">
+      <div class="header__menu menu">
+        <a href="index.html" class="menu__item">Home</a>
+        <a href="#Product" class="menu__item">Product</a>
+        <a href="#Pricing" class="menu__item">Pricing</a>
+        <a href="#about" class="menu__item">About</a>
+        <a href="#Contact" class="menu__item">Contact</a>
       </div>
-    </header>
-    <h1>
-      <font color="white">The best products start with Figma</font>
-    </h1>
-    <p>
-      <font color="white">
+      <div class="header__logo-container">
+        <img src="img/logo-figma.png" alt="Logo Figma">
+      </div>
+      <div class="social-network">
+        <a class="network-item" href="#"> <img src="img/twitter.png" alt="Twitter"></a>
+        <a class="network-item" href="#"><img src="img/facebook.png" alt="facebook"></a>
+        <a class="network-item" href=""><img src="img/linkedin.png" alt="Linkedin"></a>
+      </div>
+    </nav>
+    <div class="header__baner-container">
+      <h1 class="header__title">The best products start with Figma </h1>
+      <p class="header__text">
         Most calendars are designed for teams. Slate is designed for freelancers
-      </font>
-    </p>
-    <button color="white">Try For Free</button>
-  </div>
-  <main>
-    <h2>Features</h2>
-    <p>
+      </p>
+      <div class="header__buttons">
+        <a href="#Try For Free" class="button"><img src="img/bigbutton.png" alt="Try For Free"></a>
+      </div>
+    </div>
+    <main>
+    <div>
+     <h2 id="Product">Features</h2>
+     <p>
       Most calendars are designed for teams. Slate is designed for freelancers
-    </p>
-
+     </p>
+    </div>
     <div>
       <img src="img/fonts.png" alt="Fonts">
       <h3>OpenType features Variable fonts</h3>
@@ -70,19 +66,22 @@
         Slate helps you see how many more days you need to work to reach your
         financial goal.
       </p>
+    </div>
       <div>
         <img src="img/women-laptop.png" alt="Woman with tablet">
         <button id="play-button">Play Video</button>
       </div>
-      <div>
-        <h2>Fastest way to organize</h2>
+    </div>
+    <div>
+      <section  class="organize">
+        <h2  id="Try For Free">Fastest way to organize</h2>
         <p>
           Most calendars are designed for teams. Slate is designed for
           freelancers
         </p>
         <button>Try For Free</button>
         <img src="img/laptop.png" alt="Laptop">
-      </div>
+      </section>
       <div>
         <h3>At your fingertips</h3>
         <h2>Lightning fast prototyping</h2>
@@ -122,16 +121,16 @@
       </div>
       <button>More Testimonials</button>
       <div style=background-color:#252B42;>
-        <h2 style="color: white;">Pricing</h2>
+        <h2 id="Pricing">Pricing</h2>
         <p style="color: white;">Most calendars are designed for teams.
           Slate is designed for freelancers</p>
         <div></div>
-        <img src="img/Pricing-style-2.png" alt="Pricing1">
-        <img src="img/Pricing-style-2-contrast.png" alt="Pricing2">
-        <img src="img/Pricing-style-2-1.png" alt="Pricing3">
+        <img src="img/price-free.png" alt="Pricing Free">
+        <img src="img/price-standart.png" alt="Pricing Standart">
+        <img src="img/price-business.png" alt="Pricing">
       </div>
       <div>
-        <h2>Contact Us</h2>
+        <h2 id="Contact">Contact Us</h2>
         <p>Most calendars are designed for teams.
           Slate is designed for freelancers</p>
       </div>
@@ -144,8 +143,8 @@
         <img src="img/linkedin-icon.png" alt="Linkedin-con">
       </div>
     </div>
-  </main>
-  <footer style=background-color:#252B42;>
+    </main>
+    <footer style=background-color:#252B42;>
     <div style="color: white;">
       <h3>Pages</h3>
       <ul>
@@ -178,7 +177,6 @@
         <p>(239) 555-0108</p>
       </div>
     </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
