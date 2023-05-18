@@ -1,90 +1,85 @@
 .header {
-    width: 1775px;
-    height: 930px;
-    background:
-        url(../img/working-laptop.png);
-
+  width: 1776px;
+  height: 930px;
+  background-image: url(../img/working-laptop.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .header__nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1210px;
-    height: 156px;
-    margin-top: 4px;
-    margin-left: 282px;
-    margin-right: 283px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1210px;
+  height: 156px;
+  margin-top: 4px;
+  margin-left: 282px;
+  margin-right: 283px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .header__menu {
-    display: flex;
-    flex-grow: 1;
-    width: 437px;
-    height: 48px;
-
+  display: flex;
+  flex-grow: 1;
+  width: 437px;
+  height: 48px;
 }
 
-.menu {}
 
 .menu__item {
-    color: #FFFFFF;
-    flex-grow: 1;
-    text-decoration: none;
+  color: #ffffff;
+  flex-grow: 1;
+  text-decoration: none;
 }
 
 .header__logo-container {
-    flex-grow: 1;
-    width: 246px;
-    height: 78px;
+  flex-grow: 1;
+  width: 246px;
+  height: 78px;
 }
 
 .social-network {
-    display: flex;
-    flex-grow: 1;
-    width: 170px;
-    height: 40px;
+  display: flex;
+  flex-grow: 1;
+  width: 170px;
+  height: 40px;
 }
 .network-item {
-    flex-grow: 1; 
+  flex-grow: 1;
 }
 .header__baner-container {
-
-
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .header__title {
-    text-align: center;
-    width: 692px;
-    height: 188px;
-    font-family: 'Graphik';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 74px;
-    line-height: 84px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    margin-top: 100px;
-    margin-left: 541px;
-    margin-right: 542зч;
+  text-align: center;
+  width: 692px;
+  height: 188px;
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 84px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  margin-top: 100px;
+  margin-left: 541px;
+  margin-right: 542зч;
 }
 
 .header__text {
-    text-align: center;
-    width: 766px;
-    height: 80px;
-    margin-top: 17px;
-    margin-left: 494px;
-    margin-right: 495px;
-    font-family: 'Graphik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 40px;
-    text-align: center;
+  text-align: center;
+  width: 766px;
+  height: 80px;
+  margin-top: 17px;
+  margin-left: 494px;
+  margin-right: 495px;
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
 }
